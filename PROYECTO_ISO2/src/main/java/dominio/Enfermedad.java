@@ -1,6 +1,5 @@
-package DOMINIO;
-//VERSION 0.0.0
-//CHANGELOG: atributos y metodos base de la clase
+package dominio;
+//V 0.0.0
 public class Enfermedad {
 
 	private String Nombre;

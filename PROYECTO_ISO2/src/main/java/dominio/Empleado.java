@@ -1,6 +1,6 @@
-package DOMINIO;
-//VERSION 0.0.0
-//CHANGELOG: atributos y metodos base de la clase
+package dominio;
+//V 0.1.0 
+//changelog: Añadidas las funciones de la iteracion 2
 public class Empleado extends Persona {
 
 	private int ID_Empleado;
@@ -11,8 +11,7 @@ public class Empleado extends Persona {
 	 * @param Enfermedad
 	 */
 	public void addEnfermedad(Enfermedad Enfermedad) {
-		// TODO - implement Empleado.addEnfermedad
-		throw new UnsupportedOperationException();
+
 	}
 
 	public int getID_Empleado() {
@@ -43,5 +42,17 @@ public class Empleado extends Persona {
 		throw new UnsupportedOperationException();
 	}
 
-}
+	public void comprobarInventario() {
+		// TODO - implement Empleado.comprobarInventario
+		throw new UnsupportedOperationException();
+	}
 
+	/**
+	 * 
+	 * @param prevision
+	 */
+	public void registrarPrevisiones(Prevision prevision) {
+
+	}
+
+}
