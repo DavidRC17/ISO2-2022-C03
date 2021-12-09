@@ -1,11 +1,13 @@
 package dominio;
-
+//V 0.1.0
+//Changelog: hemos añadido el atributo de dato estadistico
 public class Enfermedad {
 
 	private string Nombre;
 	private string Tipo;
 	private string Peligrosidad;
 	private string Sintomas;
+	private DatoEstadistico DatosEstadisticos;
 
 	public string getNombre() {
 		// TODO - implement Enfermedad.getNombre
@@ -60,6 +62,20 @@ public class Enfermedad {
 	 */
 	public void setSintomas(string Sintomas) {
 		// TODO - implement Enfermedad.setSintomas
+		throw new UnsupportedOperationException();
+	}
+
+	public DatoEstadistico getDatosEstadisticos() {
+		// TODO - implement Enfermedad.getDatosEstadisticos
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param DatosEstadisticos
+	 */
+	public void setDatosEstadisticos(DatoEstadistico DatosEstadisticos) {
+		// TODO - implement Enfermedad.setDatosEstadisticos
 		throw new UnsupportedOperationException();
 	}
 

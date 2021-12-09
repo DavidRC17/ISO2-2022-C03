@@ -1,5 +1,6 @@
 package dominio;
-
+//V 0.2.0
+//Changelog: hemos añadido los metodos de conslutar y calcular los datos estaditicos
 public class Empleado extends Persona {
 
 	private int ID_Empleado;
@@ -58,9 +59,9 @@ public class Empleado extends Persona {
 
 	/**
 	 * 
-	 * @param Paciente
+	 * @param ID_Paciente
 	 */
-	public void getInformacionPaciente(Paciente Paciente) {
+	public Paciente getInformacionPaciente(int ID_Paciente) {
 		// TODO - implement Empleado.getInformacionPaciente
 		throw new UnsupportedOperationException();
 	}
@@ -78,68 +79,26 @@ public class Empleado extends Persona {
 	 * 
 	 * @param Paciente
 	 */
-	public void solicitarMensajePaciente(Paciente Paciente) {
-		// TODO - implement Empleado.solicitarMensajePaciente
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * 
-	 * @param ID_Paciente
-	 */
-	public Paciente getInformacionPaciente(int ID_Paciente) {
-
-	}
-
-	/**
-	 * 
-	 * @param Paciente
-	 */
-	public void addPaciente(Paciente Paciente) {
-		// TODO - implement Empleado.addPaciente
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * 
-	 * @param Paciente
-	 */
-	public boolean solicitarMensajePaciente(Paciente Paciente) {
-
-	}
-
-	/**
-	 * 
-	 * @param Paciente
-	 */
-	public void addPaciente(Paciente Paciente) {
-		// TODO - implement Empleado.addPaciente
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * 
-	 * @param Paciente
-	 */
-	public boolean solicitarSMSPaciente(Paciente Paciente) {
-
-	}
-
-	/**
-	 * 
-	 * @param Paciente
-	 */
-	public void addPaciente(Paciente Paciente) {
-		// TODO - implement Empleado.addPaciente
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * 
-	 * @param Paciente
-	 */
 	public boolean solicitarSMSPaciente(Paciente Paciente) {
 		// TODO - implement Empleado.solicitarSMSPaciente
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param Enfermedad
+	 */
+	public void calcularDatosEstadisticos(Enfermedad Enfermedad) {
+		// TODO - implement Empleado.calcularDatosEstadisticos
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param Enfermedad
+	 */
+	public void consultarDatosEstadisticos(Enfermedad Enfermedad) {
+		// TODO - implement Empleado.consultarDatosEstadisticos
 		throw new UnsupportedOperationException();
 	}
 
