@@ -1,6 +1,5 @@
 package dominio;
-//V 0.2.0
-//Changelog: hemos añadido los metodos de calcular y consultar los datos estadisticos
+
 public class SESCAM {
 
 	private string NIF;
@@ -72,6 +71,11 @@ public class SESCAM {
 	 */
 	public void consultarDatosEstadisticos(Enfermedad Enfermedad) {
 		// TODO - implement SESCAM.consultarDatosEstadisticos
+		throw new UnsupportedOperationException();
+	}
+
+	public Campania crearCampania() {
+		// TODO - implement SESCAM.crearCampania
 		throw new UnsupportedOperationException();
 	}
 

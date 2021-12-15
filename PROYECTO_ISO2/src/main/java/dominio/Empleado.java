@@ -1,6 +1,5 @@
 package dominio;
-//V 0.2.0
-//Changelog: hemos añadido los metodos de conslutar y calcular los datos estaditicos
+
 public class Empleado extends Persona {
 
 	private int ID_Empleado;

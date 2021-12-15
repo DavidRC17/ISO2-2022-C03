@@ -1,6 +1,5 @@
 package dominio;
-//V 0.1.0
-//Changelog: hemos añadido el atributo de dato estadistico
+
 public class Enfermedad {
 
 	private string Nombre;

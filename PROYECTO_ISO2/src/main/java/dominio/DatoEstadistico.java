@@ -1,6 +1,5 @@
 package dominio;
-//V 0.0.0
-//Changelog: funcionalidad basica de la clase
+
 public class DatoEstadistico {
 
 	private int NumeroCasos;
