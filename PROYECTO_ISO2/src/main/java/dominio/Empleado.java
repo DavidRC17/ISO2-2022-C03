@@ -101,4 +101,14 @@ public class Empleado extends Persona {
 		throw new UnsupportedOperationException();
 	}
 
+	/**
+	 * 
+	 * @param usuario
+	 * @param contrasena
+	 */
+	public boolean iniciarSesion(string usuario, string contrasena) {
+		// TODO - implement Empleado.iniciarSesion
+		throw new UnsupportedOperationException();
+	}
+
 }
