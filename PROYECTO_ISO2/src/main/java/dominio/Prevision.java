@@ -1,10 +1,10 @@
 package dominio;
-//V 0.0.0
+
 public class Prevision {
 
 	private int ID;
-	private String Tipo;
-	private String Fecha;
+	private string Tipo;
+	private string Fecha;
 
 	public int getID() {
 		// TODO - implement Prevision.getID
@@ -20,7 +20,7 @@ public class Prevision {
 		throw new UnsupportedOperationException();
 	}
 
-	public String getTipo() {
+	public string getTipo() {
 		// TODO - implement Prevision.getTipo
 		throw new UnsupportedOperationException();
 	}
@@ -29,12 +29,12 @@ public class Prevision {
 	 * 
 	 * @param Tipo
 	 */
-	public void setTipo(String Tipo) {
+	public void setTipo(string Tipo) {
 		// TODO - implement Prevision.setTipo
 		throw new UnsupportedOperationException();
 	}
 
-	public String getFecha() {
+	public string getFecha() {
 		// TODO - implement Prevision.getFecha
 		throw new UnsupportedOperationException();
 	}
@@ -43,7 +43,7 @@ public class Prevision {
 	 * 
 	 * @param Fecha
 	 */
-	public void setFecha(String Fecha) {
+	public void setFecha(string Fecha) {
 		// TODO - implement Prevision.setFecha
 		throw new UnsupportedOperationException();
 	}

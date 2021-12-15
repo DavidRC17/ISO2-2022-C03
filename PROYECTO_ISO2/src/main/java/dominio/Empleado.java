@@ -1,6 +1,5 @@
 package dominio;
-//V 0.1.0 
-//changelog: Añadidas las funciones de la iteracion 2
+
 public class Empleado extends Persona {
 
 	private int ID_Empleado;
@@ -11,7 +10,8 @@ public class Empleado extends Persona {
 	 * @param Enfermedad
 	 */
 	public void addEnfermedad(Enfermedad Enfermedad) {
-
+		// TODO - implement Empleado.addEnfermedad
+		throw new UnsupportedOperationException();
 	}
 
 	public int getID_Empleado() {
@@ -52,7 +52,63 @@ public class Empleado extends Persona {
 	 * @param prevision
 	 */
 	public void registrarPrevisiones(Prevision prevision) {
+		// TODO - implement Empleado.registrarPrevisiones
+		throw new UnsupportedOperationException();
+	}
 
+	/**
+	 * 
+	 * @param ID_Paciente
+	 */
+	public Paciente getInformacionPaciente(int ID_Paciente) {
+		// TODO - implement Empleado.getInformacionPaciente
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param Paciente
+	 */
+	public void addPaciente(Paciente Paciente) {
+		// TODO - implement Empleado.addPaciente
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param Paciente
+	 */
+	public boolean solicitarSMSPaciente(Paciente Paciente) {
+		// TODO - implement Empleado.solicitarSMSPaciente
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param Enfermedad
+	 */
+	public void calcularDatosEstadisticos(Enfermedad Enfermedad) {
+		// TODO - implement Empleado.calcularDatosEstadisticos
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param Enfermedad
+	 */
+	public void consultarDatosEstadisticos(Enfermedad Enfermedad) {
+		// TODO - implement Empleado.consultarDatosEstadisticos
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param usuario
+	 * @param contrasena
+	 */
+	public boolean iniciarSesion(string usuario, string contrasena) {
+		// TODO - implement Empleado.iniciarSesion
+		throw new UnsupportedOperationException();
 	}
 
 }

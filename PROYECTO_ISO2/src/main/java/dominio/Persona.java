@@ -1,15 +1,16 @@
 package dominio;
-//V 0.0.0
+
 /**
  * Persona
  */
 public class Persona {
 
-	private String DNI;
-	private String Nombre;
-	private String Direccion;
+	private string DNI;
+	private string Nombre;
+	private string Direccion;
+	private int Telefono;
 
-	public String getDNI() {
+	public string getDNI() {
 		// TODO - implement Persona.getDNI
 		throw new UnsupportedOperationException();
 	}
@@ -18,12 +19,12 @@ public class Persona {
 	 * 
 	 * @param DNI
 	 */
-	public void setDNI(String DNI) {
+	public void setDNI(string DNI) {
 		// TODO - implement Persona.setDNI
 		throw new UnsupportedOperationException();
 	}
 
-	public String getNombre() {
+	public string getNombre() {
 		// TODO - implement Persona.getNombre
 		throw new UnsupportedOperationException();
 	}
@@ -32,12 +33,12 @@ public class Persona {
 	 * 
 	 * @param Nombre
 	 */
-	public void setNombre(String Nombre) {
+	public void setNombre(string Nombre) {
 		// TODO - implement Persona.setNombre
 		throw new UnsupportedOperationException();
 	}
 
-	public String getDireccion() {
+	public string getDireccion() {
 		// TODO - implement Persona.getDireccion
 		throw new UnsupportedOperationException();
 	}
@@ -46,8 +47,22 @@ public class Persona {
 	 * 
 	 * @param Direccion
 	 */
-	public void setDireccion(String Direccion) {
+	public void setDireccion(string Direccion) {
 		// TODO - implement Persona.setDireccion
+		throw new UnsupportedOperationException();
+	}
+
+	public int getTelefono() {
+		// TODO - implement Persona.getTelefono
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param Telefono
+	 */
+	public void setTelefono(int Telefono) {
+		// TODO - implement Persona.setTelefono
 		throw new UnsupportedOperationException();
 	}
 
